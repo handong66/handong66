@@ -1,26 +1,25 @@
 <h1 align="center">Hi, I'm Dong</h1>
 
 <p align="center">
-  Researcher-builder working across AI agents, evidence-backed developer tools, and local-first learning / research apps.
+  Researcher-builder working across evidence-first AI, agent workflows, local-first research apps, and production web work.
   <br />
-  连接 AI agent、证据驱动开发工具与本地优先研究/学习应用的研究型开发者。
+  连接证据优先 AI、agent 协作工作流、本地优先研究应用与生产级 Web 工作的研究型开发者。
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/AI%20Agents-111827?style=for-the-badge&logo=openai&logoColor=white" alt="AI Agents" />
-  <img src="https://img.shields.io/badge/Evidoc-0f766e?style=for-the-badge&logo=googledocs&logoColor=white" alt="Evidoc" />
-  <img src="https://img.shields.io/badge/MCP-2563eb?style=for-the-badge&logoColor=white" alt="MCP" />
-  <img src="https://img.shields.io/badge/Grok-000000?style=for-the-badge&logo=x&logoColor=white" alt="Grok" />
-  <img src="https://img.shields.io/badge/Local--first-7c3aed?style=for-the-badge&logo=sqlite&logoColor=white" alt="Local-first" />
+  <img src="https://img.shields.io/badge/Evidence--first%20AI-111827?style=for-the-badge&logo=openai&logoColor=white" alt="Evidence-first AI" />
+  <img src="https://img.shields.io/badge/Agent%20Workflows-2563eb?style=for-the-badge&logoColor=white" alt="Agent Workflows" />
+  <img src="https://img.shields.io/badge/Documentation%20Drift-0f766e?style=for-the-badge&logo=googledocs&logoColor=white" alt="Documentation Drift" />
+  <img src="https://img.shields.io/badge/Local--first%20Apps-7c3aed?style=for-the-badge&logo=sqlite&logoColor=white" alt="Local-first Apps" />
+  <img src="https://img.shields.io/badge/Academic%20Tools-92400e?style=for-the-badge&logo=googlescholar&logoColor=white" alt="Academic Tools" />
   <img src="https://img.shields.io/badge/TypeScript-3178c6?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript" />
-  <img src="https://img.shields.io/badge/Astro-ff5d01?style=for-the-badge&logo=astro&logoColor=white" alt="Astro" />
 </p>
 
 ## About Me
 
 - I build AI-assisted products where source evidence, guardrails, and user workflows matter.
 - My research background is Cantonese speech, tone, and emotional prosody; it keeps my engineering work grounded in human judgment and evidence.
-- I ship local-first desktop apps, developer tools, portfolio agents, and language-learning tools from design through release.
+- I ship local-first desktop apps, developer tools, production web work, portfolio agents, and language-learning tools from design through release.
 
 ## Current Focus
 
@@ -42,9 +41,17 @@
 | [relaybar-open](https://github.com/handong66/relaybar-open) | macOS menu-bar monitor for AI coding account pools, remaining quota, and throttled states | Swift / macOS |
 | [Cantonese-Mandarin-Cross-Ref](https://github.com/handong66/Cantonese-Mandarin-Cross-Ref) | Learner-facing lookup tool for Cantonese and Mandarin readings with Jyutping and audio | JavaScript / Language Education |
 
-## Tech I Use Most
+## Core Stack
 
-`TypeScript` `MCP` `Node.js` `Codex Plugins` `OpenCode` `Grok CLI` `Astro` `Next.js` `React` `Electron` `Swift` `SQLite` `AI SDK` `Vitest` `Playwright`
+**Agent & evidence tools:** `TypeScript` `Node.js` `MCP` `Codex Plugins` `OpenCode` `Grok CLI` `AI SDK`
+
+**Local-first apps:** `Electron` `SQLite` `better-sqlite3`
+
+**Production web:** `Next.js` `React` `Tailwind CSS` `Supabase` `Cloudflare` `Resend` `Sentry` `Umami` `i18n`
+
+**Native / product surfaces:** `Swift` `macOS` `JavaScript` `Astro`
+
+**Quality gates:** `GitHub Actions` `Vitest` `Playwright`
 
 ## Build Style
 
@@ -54,7 +61,7 @@
 
 - Personal site and source-grounded portfolio: [han-dong.link](https://han-dong.link)
 - Research thread: Cantonese speech, tones, emotional prosody, and learner-facing language tools.
-- Engineering thread: agent workflows, bounded multi-agent review, documentation drift control, local-first AI products, and practical developer tools.
+- Engineering thread: agent workflows, bounded multi-agent review, documentation drift control, local-first AI products, production web work, and practical developer tools.
 
 <p align="center">
   Thanks for stopping by.
