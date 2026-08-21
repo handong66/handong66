@@ -24,8 +24,8 @@
 ## Current Focus
 
 - Shipping Evidoc, an evidence-backed documentation drift control plane for agentic repositories, now on npm as `@evidoc/evidoc`.
-- Extending Claude Code with plugins that delegate reviews, rescues, and session handoffs to the opencode and Grok CLIs.
-- Tightening Claude Code, Codex, opencode, Grok, MCP, and personal skill workflows around review gates and release discipline.
+- Extending Claude Code with plugins that delegate reviews, rescues, and session handoffs to the opencode, Grok, and Antigravity (agy) CLIs.
+- Tightening Claude Code, Codex, opencode, Grok, Antigravity, MCP, and personal skill workflows around review gates and release discipline.
 - Developing local-first academic and viva-prep tools with evidence traces and opt-in external calls.
 - Evolving [han-dong.link](https://han-dong.link) with source-grounded Q&A, Role Fit briefs, and spatial portfolio UI.
 
@@ -36,8 +36,10 @@
 | [Evidoc](https://github.com/handong66/Evidoc) | Evidence-backed documentation drift control for README, AGENTS, docs, examples, and agent instructions | TypeScript / CLI / MCP / GitHub Actions |
 | [opencode-plugin-cc](https://github.com/handong66/opencode-plugin-cc) | Claude Code plugin that runs opencode for structured reviews, task delegation, and session transfer across any provider that opencode fronts | JavaScript / Claude Code Plugin / opencode CLI |
 | [grok-plugin-cc](https://github.com/handong66/grok-plugin-cc) | Claude Code plugin for Grok reviews, adversarial analysis, rescue delegation, and session handoff via the Grok CLI headless mode | JavaScript / Claude Code Plugin / Grok CLI |
+| [agy-plugin-cc](https://github.com/handong66/agy-plugin-cc) | Claude Code plugin that delegates reviews and rescue work to Google's Antigravity CLI (agy), with filesystem-isolated read-only reviews | JavaScript / Claude Code Plugin / Antigravity CLI |
 | [opencode-plugin-codex](https://github.com/handong66/opencode-plugin-codex) | Codex plugin that runs opencode as a bounded reviewer, rescue agent, and handoff target | TypeScript / MCP / opencode CLI |
 | [grok-plugin-codex](https://github.com/handong66/grok-plugin-codex) | Codex plugin that delegates bounded review, rescue, and adversarial analysis to the local Grok CLI through MCP | TypeScript / MCP / Grok CLI |
+| [agy-plugin-codex](https://github.com/handong66/agy-plugin-codex) | Codex plugin for the Antigravity CLI with a measured runtime contract, typed refusals, and filesystem-isolated read-only reviews | TypeScript / MCP / Antigravity CLI |
 | [Dong-skills](https://github.com/handong66/Dong-skills) | Personal agent workflow skills for Claude, Codex, opencode, and Grok collaboration | Skills / Agent Workflows / Docs |
 | [D-academic-agent](https://github.com/handong66/D-academic-agent) | Local-first academic evidence workspace for claim and citation auditing | TypeScript / Electron / MCP / SQLite |
 | [D-viva-assistant-agent](https://github.com/handong66/D-viva-assistant-agent) | Thesis viva preparation app with evidence-linked practice, scoring, and revision tasks | Next.js / Electron / AI SDK / SQLite |
@@ -46,7 +48,7 @@
 
 ## Core Stack
 
-**Agent & evidence tools:** `TypeScript` `Node.js` `MCP` `Codex Plugins` `opencode` `Grok CLI` `AI SDK`
+**Agent & evidence tools:** `TypeScript` `Node.js` `MCP` `Codex Plugins` `opencode` `Grok CLI` `Antigravity CLI` `AI SDK`
 
 **Local-first apps:** `Electron` `SQLite` `better-sqlite3`
 
