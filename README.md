@@ -40,7 +40,7 @@
 | [opencode-plugin-codex](https://github.com/handong66/opencode-plugin-codex) | Codex plugin that runs opencode as a bounded reviewer, rescue agent, and handoff target | TypeScript / MCP / opencode CLI |
 | [grok-plugin-codex](https://github.com/handong66/grok-plugin-codex) | Codex plugin that delegates bounded review, rescue, and adversarial analysis to the local Grok CLI through MCP | TypeScript / MCP / Grok CLI |
 | [agy-plugin-codex](https://github.com/handong66/agy-plugin-codex) | Codex plugin for the Antigravity CLI with a measured runtime contract, typed refusals, and filesystem-isolated read-only reviews | TypeScript / MCP / Antigravity CLI |
-| [Dong-skills](https://github.com/handong66/Dong-skills) | Personal agent workflow skills for Claude, Codex, opencode, and Grok collaboration | Skills / Agent Workflows / Docs |
+| [Dong-skills](https://github.com/handong66/Dong-skills) | Personal agent workflow skills for Claude, Codex, opencode, Grok, and Antigravity collaboration | Skills / Agent Workflows / Docs |
 | [D-academic-agent](https://github.com/handong66/D-academic-agent) | Local-first academic evidence workspace for claim and citation auditing | TypeScript / Electron / MCP / SQLite |
 | [D-viva-assistant-agent](https://github.com/handong66/D-viva-assistant-agent) | Thesis viva preparation app with evidence-linked practice, scoring, and revision tasks | Next.js / Electron / AI SDK / SQLite |
 | [relaybar-open](https://github.com/handong66/relaybar-open) | macOS menu-bar monitor for AI coding account pools, remaining quota, and throttled states | Swift / macOS |
