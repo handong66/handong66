@@ -23,7 +23,7 @@
 
 ## Current Focus
 
-- Shipping Evidoc, an evidence-backed documentation drift control plane for agentic repositories, now on npm as `@evidoc/evidoc`.
+- Shipping Evidoc, a repo-local evidence gate for stale documentation and coding-agent instructions, now on npm as `@evidoc/evidoc`.
 - Extending Claude Code with plugins that delegate reviews, rescues, and session handoffs to the opencode, Grok, and Antigravity (agy) CLIs.
 - Tightening Claude Code, Codex, opencode, Grok, Antigravity, MCP, and personal skill workflows around review gates and release discipline.
 - Developing local-first academic and viva-prep tools with evidence traces and opt-in external calls.
@@ -33,10 +33,10 @@
 
 | Project | What it does | Stack |
 | --- | --- | --- |
-| [Evidoc](https://github.com/handong66/Evidoc) | Evidence-backed documentation drift control for README, AGENTS, docs, examples, and agent instructions | TypeScript / CLI / MCP / GitHub Actions |
-| [opencode-plugin-cc](https://github.com/handong66/opencode-plugin-cc) | Claude Code plugin that runs opencode for structured reviews, task delegation, and session transfer across any provider that opencode fronts | JavaScript / Claude Code Plugin / opencode CLI |
-| [grok-plugin-cc](https://github.com/handong66/grok-plugin-cc) | Claude Code plugin for Grok reviews, adversarial analysis, rescue delegation, and session handoff via the Grok CLI headless mode | JavaScript / Claude Code Plugin / Grok CLI |
-| [agy-plugin-cc](https://github.com/handong66/agy-plugin-cc) | Claude Code plugin that delegates reviews and rescue work to Google's Antigravity CLI (agy), with filesystem-isolated read-only reviews | JavaScript / Claude Code Plugin / Antigravity CLI |
+| [Evidoc](https://github.com/handong66/Evidoc) | A repo-local evidence gate that checks README, AGENTS, docs, examples, and agent instructions against the code they describe | TypeScript / CLI / MCP / GitHub Actions |
+| [opencode-plugin-cc](https://github.com/handong66/opencode-plugin-cc) | A Claude Code port of OpenAI's codex-plugin-cc surface, driving opencode for structured reviews, task delegation, and session transfer | JavaScript / Claude Code Plugin / opencode CLI |
+| [grok-plugin-cc](https://github.com/handong66/grok-plugin-cc) | The same port driving the Grok CLI's headless mode for reviews, adversarial analysis, and rescue, with session handoff by transcript import | JavaScript / Claude Code Plugin / Grok CLI |
+| [agy-plugin-cc](https://github.com/handong66/agy-plugin-cc) | A port of that port onto Google's Antigravity CLI (agy). Reviews run against a disposable copy because agy has no read-only mode; rescue deliberately gets the real tree | JavaScript / Claude Code Plugin / Antigravity CLI |
 | [opencode-plugin-codex](https://github.com/handong66/opencode-plugin-codex) | Codex plugin that runs opencode as a bounded reviewer, rescue agent, and handoff target | TypeScript / MCP / opencode CLI |
 | [grok-plugin-codex](https://github.com/handong66/grok-plugin-codex) | Codex plugin that delegates bounded review, rescue, and adversarial analysis to the local Grok CLI through MCP | TypeScript / MCP / Grok CLI |
 | [agy-plugin-codex](https://github.com/handong66/agy-plugin-codex) | Codex plugin for the Antigravity CLI with a measured runtime contract, typed refusals, and filesystem-isolated read-only reviews | TypeScript / MCP / Antigravity CLI |
@@ -45,6 +45,8 @@
 | [D-viva-assistant-agent](https://github.com/handong66/D-viva-assistant-agent) | Thesis viva preparation app with evidence-linked practice, scoring, and revision tasks | Next.js / Electron / AI SDK / SQLite |
 | [relaybar-open](https://github.com/handong66/relaybar-open) | macOS menu-bar monitor for AI coding account pools, remaining quota, and throttled states | Swift / macOS |
 | [Cantonese-Mandarin-Cross-Ref](https://github.com/handong66/Cantonese-Mandarin-Cross-Ref) | Learner-facing lookup tool for Cantonese and Mandarin readings with Jyutping and audio | JavaScript / Language Education |
+
+The three Claude Code plugins are ports: `opencode-plugin-cc` adapts the command surface of OpenAI's [codex-plugin-cc](https://github.com/openai/codex-plugin-cc) (Apache-2.0) to a different CLI, `grok-plugin-cc` applies the same adaptation to Grok, and `agy-plugin-cc` is a port of `opencode-plugin-cc` in turn. The three Codex plugins are built on the MCP surface rather than ported. None of the six is affiliated with or endorsed by OpenAI, xAI, or Google.
 
 ## Core Stack
 
