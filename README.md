@@ -28,6 +28,7 @@
 - Tightening Claude Code, Codex, opencode, Grok, Antigravity, MCP, and personal skill workflows around review gates and release discipline.
 - Developing local-first academic and viva-prep tools with evidence traces and opt-in external calls.
 - Evolving [han-dong.link](https://han-dong.link) with source-grounded Q&A, Role Fit briefs, and spatial portfolio UI.
+- Publishing my original long-form [Screen Studies](https://han-dong.link/zh-hans/screen) close readings and case analyses of AI-native drama and short-form video.
 
 ## Featured Projects
 
