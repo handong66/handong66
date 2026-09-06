@@ -1,76 +1,81 @@
-<h1 align="center">Hi, I'm Dong</h1>
+<h1 align="center">Hi, I'm Dong · 韓冬</h1>
 
 <p align="center">
-  Researcher-builder working across evidence-first AI, agent workflows, local-first research apps, and production web work.
-  <br />
-  连接证据优先 AI、agent 协作工作流、本地优先研究应用与生产级 Web 工作的研究型开发者。
+  <strong>AI product and agent-workflow builder</strong><br />
+  AI 产品与智能体工作流开发者
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Evidence--first%20AI-111827?style=for-the-badge&logo=openai&logoColor=white" alt="Evidence-first AI" />
-  <img src="https://img.shields.io/badge/Agent%20Workflows-2563eb?style=for-the-badge&logoColor=white" alt="Agent Workflows" />
-  <img src="https://img.shields.io/badge/Documentation%20Drift-0f766e?style=for-the-badge&logo=googledocs&logoColor=white" alt="Documentation Drift" />
-  <img src="https://img.shields.io/badge/Local--first%20Apps-7c3aed?style=for-the-badge&logo=sqlite&logoColor=white" alt="Local-first Apps" />
-  <img src="https://img.shields.io/badge/Academic%20Tools-92400e?style=for-the-badge&logo=googlescholar&logoColor=white" alt="Academic Tools" />
-  <img src="https://img.shields.io/badge/TypeScript-3178c6?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript" />
+  I build AI products and developer tools with traceable evidence and human judgment at their core.<br />
+  我把研究训练与教学经验带进产品设计，让复杂工作流变得可用、可核验。
 </p>
 
-## About Me
+<p align="center">
+  <a href="https://han-dong.link/en">Website</a> ·
+  <a href="https://han-dong.link/en/work">Projects</a> ·
+  <a href="https://han-dong.link/en/research">Research</a> ·
+  <a href="https://han-dong.link/en/screen">Screen</a> ·
+  <a href="https://han-dong.link/en/role-fit">Role Fit</a>
+</p>
 
-- I build AI-assisted products where source evidence, guardrails, and user workflows matter.
-- My research background is Cantonese speech, tone, and emotional prosody; it keeps my engineering work grounded in human judgment and evidence.
-- I ship local-first desktop apps, developer tools, production web work, portfolio agents, and language-learning tools from design through release.
+<p align="center">
+  <img src="https://img.shields.io/badge/AI%20Products-243746?style=for-the-badge" alt="AI Products" />
+  <img src="https://img.shields.io/badge/Agent%20Workflows-315F78?style=for-the-badge" alt="Agent Workflows" />
+  <img src="https://img.shields.io/badge/Speech%20%26%20Language-497A74?style=for-the-badge" alt="Speech &amp; Language" />
+  <img src="https://img.shields.io/badge/Language%20Education-8A7048?style=for-the-badge" alt="Language Education" />
+  <img src="https://img.shields.io/badge/Film%20%26%20Storytelling-78617E?style=for-the-badge" alt="Film &amp; Storytelling" />
+</p>
 
-## Current Focus
+## About me
 
-- Shipping Evidoc, a repo-local evidence gate for stale documentation and coding-agent instructions, now on npm as `@evidoc/evidoc`.
-- Extending Claude Code with plugins that delegate reviews, rescues, and session handoffs to the opencode, Grok, and Antigravity (agy) CLIs.
-- Tightening Claude Code, Codex, opencode, Grok, Antigravity, MCP, and personal skill workflows around review gates and release discipline.
-- Developing local-first academic and viva-prep tools with evidence traces and opt-in external calls.
-- Evolving [han-dong.link](https://han-dong.link) with source-grounded Q&A, Role Fit briefs, and spatial portfolio UI.
-- Publishing my original long-form [Screen Studies](https://han-dong.link/zh-hans/screen) close readings and case analyses of AI-native drama and short-form video.
+My work connects **product, research, and education**: from AI assistants and coding-agent tools to local-first research apps and creative workflows. I design the user journey, build the system, and carry it through verification and release.
 
-## Featured Projects
+My research focuses on **Cantonese speech, tone, and emotional prosody**. Experimental design, acoustic analysis, and teaching shape how I understand users and evaluate what a product actually does.
 
-| Project | What it does | Stack |
+## What I'm building
+
+| Project | What it helps people do | Explore |
 | --- | --- | --- |
-| [Evidoc](https://github.com/handong66/Evidoc) | A repo-local evidence gate that checks README, AGENTS, docs, examples, and agent instructions against the code they describe | TypeScript / CLI / MCP / GitHub Actions |
-| [opencode-plugin-cc](https://github.com/handong66/opencode-plugin-cc) | A Claude Code port of OpenAI's codex-plugin-cc surface, driving opencode for structured reviews, task delegation, and session transfer | JavaScript / Claude Code Plugin / opencode CLI |
-| [grok-plugin-cc](https://github.com/handong66/grok-plugin-cc) | The same port driving the Grok CLI's headless mode for reviews, adversarial analysis, and rescue, with session handoff by transcript import | JavaScript / Claude Code Plugin / Grok CLI |
-| [agy-plugin-cc](https://github.com/handong66/agy-plugin-cc) | A port of that port onto Google's Antigravity CLI (agy). Reviews run against a disposable copy because agy has no read-only mode; rescue deliberately gets the real tree | JavaScript / Claude Code Plugin / Antigravity CLI |
-| [opencode-plugin-codex](https://github.com/handong66/opencode-plugin-codex) | Codex plugin that runs opencode as a bounded reviewer, rescue agent, and handoff target | TypeScript / MCP / opencode CLI |
-| [grok-plugin-codex](https://github.com/handong66/grok-plugin-codex) | Codex plugin that delegates bounded review, rescue, and adversarial analysis to the local Grok CLI through MCP | TypeScript / MCP / Grok CLI |
-| [agy-plugin-codex](https://github.com/handong66/agy-plugin-codex) | Codex plugin for the Antigravity CLI with a measured runtime contract, typed refusals, and filesystem-isolated read-only reviews | TypeScript / MCP / Antigravity CLI |
-| [Dong-skills](https://github.com/handong66/Dong-skills) | Personal agent workflow skills for Claude, Codex, opencode, Grok, and Antigravity collaboration | Skills / Agent Workflows / Docs |
-| [D-academic-agent](https://github.com/handong66/D-academic-agent) | Local-first academic evidence workspace for claim and citation auditing | TypeScript / Electron / MCP / SQLite |
-| [D-viva-assistant-agent](https://github.com/handong66/D-viva-assistant-agent) | Thesis viva preparation app with evidence-linked practice, scoring, and revision tasks | Next.js / Electron / AI SDK / SQLite |
-| [relaybar-open](https://github.com/handong66/relaybar-open) | macOS menu-bar monitor for AI coding account pools, remaining quota, and throttled states | Swift / macOS |
-| [Cantonese-Mandarin-Cross-Ref](https://github.com/handong66/Cantonese-Mandarin-Cross-Ref) | Learner-facing lookup tool for Cantonese and Mandarin readings with Jyutping and audio | JavaScript / Language Education |
+| **Storyspan 源映** | Develop a director's creative intent into a screenplay, with traceable source material, revision approval, and Fountain export. Local-first; in development. | [Project](https://han-dong.link/en/work/storyspan) |
+| **CineTrace** | Connect film shots, speech, and keyframes to evidence-linked analysis and HTML reports. Automated visual observations remain drafts for review. | [Project](https://han-dong.link/en/work/cinetrace) |
+| **Role Fit** | Compare a job description with portfolio evidence, explore supported matches and gaps, and ask follow-up questions. Live in three languages. | [Try it](https://han-dong.link/en/role-fit) |
+| **Portfolio assistant** | Explore my projects and research through source-linked answers and interactive cards on my multilingual Astro website. | [Website](https://han-dong.link/en) |
 
-The three Claude Code plugins are ports: `opencode-plugin-cc` adapts the command surface of OpenAI's [codex-plugin-cc](https://github.com/openai/codex-plugin-cc) (Apache-2.0) to a different CLI, `grok-plugin-cc` applies the same adaptation to Grok, and `agy-plugin-cc` is a port of `opencode-plugin-cc` in turn. The three Codex plugins are built on the MCP surface rather than ported. None of the six is affiliated with or endorsed by OpenAI, xAI, or Google.
+## Open-source tools
 
-## Core Stack
+| Project | What it does |
+| --- | --- |
+| [Evidoc](https://github.com/handong66/Evidoc) | Checks documentation and coding-agent instructions against repository evidence. Available as `@evidoc/evidoc`, with a CLI, MCP server, local web UI, and GitHub Action. |
+| [D-academic-agent](https://github.com/handong66/D-academic-agent) | Local-first workspace for checking academic claims and citations against paper evidence. |
+| [D-viva-assistant-agent](https://github.com/handong66/D-viva-assistant-agent) | Thesis viva preparation with evidence-linked practice, answer feedback, and revision tasks. |
+| [RelayBar](https://github.com/handong66/relaybar-open) | macOS menu-bar utility for monitoring Codex and Antigravity account pools and quota. |
+| [Cantonese–Mandarin Cross-Reference](https://github.com/handong66/Cantonese-Mandarin-Cross-Ref) | Pronunciation lookup with Jyutping, Pinyin, audio, and mobile support. |
+| [Dong-skills](https://github.com/handong66/Dong-skills) | Reusable skills for scoped agent collaboration, review, and handoff. |
 
-**Agent & evidence tools:** `TypeScript` `Node.js` `MCP` `Codex Plugins` `opencode` `Grok CLI` `Antigravity CLI` `AI SDK`
+### Agent collaboration plugins
 
-**Local-first apps:** `Electron` `SQLite` `better-sqlite3`
+Use OpenCode, Grok, or Antigravity from Claude Code and Codex for scoped tasks, code review, troubleshooting, and session handoff.
 
-**Production web:** `Next.js` `React` `Tailwind CSS` `Supabase` `Cloudflare` `Resend` `Sentry` `Umami` `i18n`
+| Target CLI | From Claude Code | From Codex |
+| --- | --- | --- |
+| OpenCode | [opencode-plugin-cc](https://github.com/handong66/opencode-plugin-cc) | [opencode-plugin-codex](https://github.com/handong66/opencode-plugin-codex) |
+| Grok | [grok-plugin-cc](https://github.com/handong66/grok-plugin-cc) | [grok-plugin-codex](https://github.com/handong66/grok-plugin-codex) |
+| Antigravity (`agy`) | [agy-plugin-cc](https://github.com/handong66/agy-plugin-cc) | [agy-plugin-codex](https://github.com/handong66/agy-plugin-codex) |
 
-**Native / product surfaces:** `Swift` `macOS` `JavaScript` `Astro`
+The Claude Code family traces back to OpenAI's Apache-2.0 [codex-plugin-cc](https://github.com/openai/codex-plugin-cc): the OpenCode port adapts its command surface, the Grok port applies the same approach, and the Antigravity port builds on the OpenCode port. The Codex family uses MCP servers and collaboration skills. The Antigravity plugins isolate review work from the source repository.
 
-**Quality gates:** `GitHub Actions` `Vitest` `Playwright`
+## Research & screen work
 
-## Build Style
+- **Speech and language:** Cantonese vocal emotion, lexical tone, and second-language speech. My work includes a first-author article in *Journal of Speech, Language, and Hearing Research* and a paper accepted by *Language and Speech*. [Publications](https://han-dong.link/en/research)
+- **Film and criticism:** short films made with generative models and long-form close readings of AI-native drama. [Watch & read](https://han-dong.link/en/screen)
 
-> Evidence first. Keep the boundary visible. Ship the useful path first.
+## Tools I work with
 
-## Notes
+**AI & developer tools:** TypeScript · Node.js · Python · MCP · AI SDK · coding-agent CLIs<br />
+**Web & desktop:** Astro · React · Next.js · Electron · SQLite · Swift · macOS<br />
+**Film analysis:** FFmpeg · PySceneDetect · faster-whisper<br />
+**Delivery & verification:** GitHub Actions · Vitest · Playwright · Vercel
 
-- Personal site and source-grounded portfolio: [han-dong.link](https://han-dong.link)
-- Research thread: Cantonese speech, tones, emotional prosody, and learner-facing language tools.
-- Engineering thread: agent workflows, bounded multi-agent review, documentation drift control, local-first AI products, production web work, and practical developer tools.
+> Evidence first. Human judgment stays in the loop. Build something useful.
 
-<p align="center">
-  Thanks for stopping by.
-</p>
+[Explore my work](https://han-dong.link/en/work) · [中文主页](https://han-dong.link/zh-hans)
