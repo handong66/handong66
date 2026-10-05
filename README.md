@@ -45,7 +45,7 @@ My research focuses on **Cantonese speech, tone, and emotional prosody**. Experi
 
 | Project | What it does |
 | --- | --- |
-| [Turnweft](https://github.com/handong66/turnweft) | Lets Claude Code and Codex hand work to Grok, OpenCode, agy, Droid, and Dim in the real project, with persistent sessions you can resume and one-time permission confirmation. Available as `turnweft` on npm; alpha, macOS only. |
+| [Turnweft](https://github.com/handong66/turnweft) | Ask Dim, Droid, Grok, OpenCode, and agy to review code, make changes, or answer questions from Claude Code or Codex. Results return to your conversation, and you can continue the same agent session later. Available on npm as `turnweft`. |
 | [Evidoc](https://github.com/handong66/Evidoc) | Checks documentation and coding-agent instructions against repository evidence. Available as `@evidoc/evidoc`, with a CLI, MCP server, local web UI, and GitHub Action. |
 | [D-academic-agent](https://github.com/handong66/D-academic-agent) | Local-first workspace for checking academic claims and citations against paper evidence. |
 | [D-viva-assistant-agent](https://github.com/handong66/D-viva-assistant-agent) | Thesis viva preparation with evidence-linked practice, answer feedback, and revision tasks. |
@@ -53,7 +53,7 @@ My research focuses on **Cantonese speech, tone, and emotional prosody**. Experi
 | [Cantonese–Mandarin Cross-Reference](https://github.com/handong66/Cantonese-Mandarin-Cross-Ref) | Pronunciation lookup with Jyutping, Pinyin, audio, and mobile support. |
 | [Dong-skills](https://github.com/handong66/Dong-skills) | Reusable skills for scoped agent collaboration, review, and handoff. |
 
-**Earlier agent plugins (archived 2026-10-05, succeeded by Turnweft):** [opencode-plugin-cc](https://github.com/handong66/opencode-plugin-cc) · [grok-plugin-cc](https://github.com/handong66/grok-plugin-cc) · [agy-plugin-cc](https://github.com/handong66/agy-plugin-cc) · [opencode-plugin-codex](https://github.com/handong66/opencode-plugin-codex) · [grok-plugin-codex](https://github.com/handong66/grok-plugin-codex) · [agy-plugin-codex](https://github.com/handong66/agy-plugin-codex). The Claude Code plugins trace back to OpenAI's Apache-2.0 [codex-plugin-cc](https://github.com/openai/codex-plugin-cc).
+**Earlier agent plugins (archived on 2026-10-05; successor: Turnweft):** [opencode-plugin-cc](https://github.com/handong66/opencode-plugin-cc) · [grok-plugin-cc](https://github.com/handong66/grok-plugin-cc) · [agy-plugin-cc](https://github.com/handong66/agy-plugin-cc) · [opencode-plugin-codex](https://github.com/handong66/opencode-plugin-codex) · [grok-plugin-codex](https://github.com/handong66/grok-plugin-codex) · [agy-plugin-codex](https://github.com/handong66/agy-plugin-codex). The Claude Code plugins are based on OpenAI's Apache-2.0 [codex-plugin-cc](https://github.com/openai/codex-plugin-cc).
 
 ## Research & screen work
 
